@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AmarinGlobal - Strategic Leadership Advisory</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.65s ease-out, transform 0.65s ease-out; }
+    .fade-in.is-visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="min-h-screen scroll-smooth bg-[#07111f] text-white selection:bg-cyan-300/30 selection:text-white relative">
+  
+  <div class="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(67,166,255,0.18),_transparent_28%),radial-gradient(circle_at_80%_20%,_rgba(44,208,196,0.10),_transparent_20%),linear-gradient(180deg,_#091222_0%,_#07111f_40%,_#050b16_100%)]"></div>
+    <div class="absolute left-[-10%] top-24 h-72 w-72 rounded-full bg-cyan-400/10 blur-3xl"></div>
+    <div class="absolute right-[-8%] top-[28rem] h-96 w-96 rounded-full bg-blue-500/10 blur-3xl"></div>
+    <div class="absolute bottom-0 left-1/3 h-80 w-80 rounded-full bg-emerald-300/5 blur-3xl"></div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-[#07111f]/80 backdrop-blur-2xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+      <a href="#top" class="flex items-center gap-3 text-left transition hover:opacity-80">
+        <div>
+          <div class="text-base font-semibold tracking-[0.24em] text-white uppercase">AmarinGlobal</div>
+          <div class="mt-1 text-[10px] uppercase tracking-[0.28em] text-cyan-100/70">Strategic Leadership Advisory</div>
+        </div>
+      </a>
+      <nav class="hidden items-center gap-8 md:flex">
+        <a href="#programs" class="text-sm text-white/72 transition hover:text-white">Programs</a>
+        <a href="#impact" class="text-sm text-white/72 transition hover:text-white">Impact</a>
+        <a href="#founder" class="text-sm text-white/72 transition hover:text-white">Founder</a>
+        <a href="#book" class="text-sm text-white/72 transition hover:text-white">Book</a>
+        <a href="#contact" class="text-sm text-white/72 transition hover:text-white">Contact</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="https://tally.so/r/6876Go" target="_blank" class="hidden rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 md:inline-flex">
+          Schedule Discovery Call
+        </a>
+        <button id="mobile-menu-btn" aria-label="Open menu" class="inline-flex rounded-full border border-white/12 bg-white/[0.03] p-2.5 text-white md:hidden">
+          <i data-feather="menu" class="h-5 w-5"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden border-t border-white/10 bg-[#07111f]/95 px-6 py-4 backdrop-blur-2xl md:hidden">
+      <div class="flex flex-col gap-4">
+        <a href="#programs" class="mobile-link text-left text-sm text-white/78">Programs</a>
+        <a href="#impact" class="mobile-link text-left text-sm text-white/78">Impact</a>
+        <a href="#founder" class="mobile-link text-left text-sm text-white/78">Founder</a>
+        <a href="#book" class="mobile-link text-left text-sm text-white/78">Book</a>
+        <a href="#contact" class="mobile-link text-left text-sm text-white/78">Contact</a>
+        <a href="https://tally.so/r/6876Go" target="_blank" class="mt-2 inline-flex w-full items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950">
+          Schedule Discovery Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="relative mx-auto max-w-7xl px-6 pb-16 pt-12 lg:px-8 lg:pb-24 lg:pt-20">
+      <div class="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
+        <div class="fade-in">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-cyan-100/90">
+            <i data-feather="star" class="h-3.5 w-3.5 fill-current"></i> Strategic Partner to CEOs
+          </div>
+          <h1 class="mt-6 max-w-4xl text-5xl font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl xl:text-7xl">
+            See What Others Miss. 
+            <span class="bg-gradient-to-r from-cyan-200 via-white to-blue-300 bg-clip-text text-transparent">Decide Before It’s Obvious.</span>
+          </h1>
+          <p class="mt-7 max-w-2xl text-lg leading-8 text-white/68 sm:text-xl">
+            I work with a small number of CEOs and senior executives as a strategic thinking partner, helping them cut through complexity, challenge assumptions, and act with clarity when decisions matter most.
+          </p>
+          <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+            <a href="https://tally.so/r/6876Go" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-6 py-4 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5">
+              Begin the Partnership <i data-feather="arrow-right" class="h-4 w-4"></i>
+            </a>
+            <a href="#programs" class="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/12 bg-white/[0.03] px-6 py-4 text-sm font-semibold text-white transition hover:bg-white/[0.06]">
+              View Programs <i data-feather="chevron-right" class="h-4 w-4"></i>
+            </a>
+          </div>
+          <div class="mt-12 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] backdrop-blur-xl">
+              <div class="text-3xl font-semibold text-white">20+</div>
+              <div class="mt-2 text-sm leading-6 text-white/58">Years leading global transformation</div>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] backdrop-blur-xl">
+              <div class="text-3xl font-semibold text-white">34K+</div>
+              <div class="mt-2 text-sm leading-6 text-white/58">Senior leaders following strategic insights</div>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] backdrop-blur-xl">
+              <div class="text-3xl font-semibold text-white">6</div>
+              <div class="mt-2 text-sm leading-6 text-white/58">Select executives advised at any time</div>
+            </div>
+            <div class="rounded-3xl border border-white/10 bg-white/[0.04] p-5 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] backdrop-blur-xl">
+              <div class="text-3xl font-semibold text-white">300+</div>
+              <div class="mt-2 text-sm leading-6 text-white/58">Professionals elevated through mentoring</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative fade-in">
+          <div class="absolute -right-5 bottom-8 hidden h-32 w-32 rounded-full border border-cyan-300/15 bg-cyan-300/10 blur-2xl lg:block"></div>
+          <div class="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] p-3 shadow-2xl shadow-cyan-950/20 backdrop-blur-xl">
+            <div class="relative overflow-hidden rounded-[1.6rem] border border-white/10">
+              <img src="images/founder.png" alt="Meir Amarin portrait" class="h-[600px] w-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#07111f] via-[#07111f]/20 to-transparent"></div>
+              <div class="absolute inset-x-0 bottom-0 p-6 sm:p-8">
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div class="rounded-3xl border border-white/10 bg-[#081221]/70 p-5 backdrop-blur-xl">
+                    <div class="text-xs uppercase tracking-[0.24em] text-cyan-100/75">Your Strategic Partner</div>
+                    <div class="mt-2 text-2xl font-semibold">Meir Amarin</div>
+                    <p class="mt-3 text-sm leading-6 text-white/65">I work directly with CEOs and senior leaders to challenge their thinking, sharpen their perspective, and help them make better decisions under real pressure.</p>
+                  </div>
+                  <div class="rounded-3xl border border-white/10 bg-[#081221]/70 p-5 backdrop-blur-xl">
+                    <div class="text-xs uppercase tracking-[0.24em] text-cyan-100/75">Core values delivered</div>
+                    <div class="mt-3 space-y-2 text-sm text-white/72">
+                      <div>• Clarity under pressure</div>
+                      <div>• Better decisions, earlier</div>
+                      <div>• Absolute discretion</div>
+                      <div>• Perspective without internal bias</div>
+                      <div>• Challenge without agenda</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="mx-auto max-w-7xl px-6 py-6 lg:px-8" id="impact">
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="fade-in rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] backdrop-blur-xl">
+          <div class="flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/15 bg-cyan-300/10 text-cyan-100"><i data-feather="cpu" class="h-6 w-6"></i></div>
+          <h3 class="mt-6 text-2xl font-semibold tracking-tight">Strategic Clarity</h3>
+          <p class="mt-4 text-base leading-7 text-white/63">Cut through complexity, politics, and pressure to deliver clear, high-consequence decisions that move organizations forward.</p>
+        </div>
+        <div class="fade-in rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] backdrop-blur-xl">
+          <div class="flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/15 bg-cyan-300/10 text-cyan-100"><i data-feather="users" class="h-6 w-6"></i></div>
+          <h3 class="mt-6 text-2xl font-semibold tracking-tight">Executive Influence</h3>
+          <p class="mt-4 text-base leading-7 text-white/63">Expand visibility, alignment, and credibility across boards, stakeholders, and teams, even in volatile environments.</p>
+        </div>
+        <div class="fade-in rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] backdrop-blur-xl">
+          <div class="flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/15 bg-cyan-300/10 text-cyan-100"><i data-feather="shield" class="h-6 w-6"></i></div>
+          <h3 class="mt-6 text-2xl font-semibold tracking-tight">Trusted Discretion</h3>
+          <p class="mt-4 text-base leading-7 text-white/63">Confidential, outcome-oriented advisory reserved for leaders who carry real responsibility and cannot afford misalignment.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="mx-auto max-w-7xl px-6 py-24 lg:px-8" id="programs">
+      <div class="fade-in max-w-3xl">
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-cyan-100/90">
+          <i data-feather="star" class="h-3.5 w-3.5 fill-current"></i> Exclusive advisory engagements
+        </div>
+        <h2 class="mt-5 text-4xl font-semibold tracking-tight sm:text-5xl">Two premium paths. Built for serious executives</h2>
+        <p class="mt-5 text-lg leading-8 text-white/68">Select leaders partner with me either for sustained strategic support or accelerated transformation. Both are intentionally limited.</p>
+      </div>
+      <div class="mt-14 grid gap-6 xl:grid-cols-[1.05fr_1.15fr]">
+        <div class="fade-in group h-full rounded-[2rem] border border-white/10 bg-white/[0.04] p-8 transition duration-300 hover:-translate-y-1">
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <div class="text-xs uppercase tracking-[0.26em] text-white/45">Ongoing Strategic Partnership</div>
+              <h3 class="mt-3 text-3xl font-semibold tracking-tight">Global Executive Advisory</h3>
+            </div>
+          </div>
+          <div class="mt-8 text-4xl font-semibold tracking-tight">$7,500 / quarter</div>
+          <p class="mt-5 max-w-xl text-base leading-7 text-white/67">A confidential, high-trust thinking partnership for CEOs and senior executives navigating complexity, scale, and critical decisions.</p>
+          <div class="mt-8 space-y-3">
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Limited to a small number of leaders at any time</p></div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Ongoing strategic thinking sessions</p></div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Direct access during critical moments</p></div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Continuous challenge, perspective, and decision clarity</p></div>
+          </div>
+          <a href="https://tally.so/r/6876Go" class="mt-10 inline-flex items-center gap-2 rounded-2xl border border-white/12 bg-white/[0.04] px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/[0.08]">
+            Apply for this engagement <i data-feather="arrow-right" class="h-4 w-4"></i>
+          </a>
+        </div>
+        <div class="fade-in group h-full rounded-[2rem] border border-cyan-300/20 bg-[linear-gradient(180deg,rgba(99,190,255,0.12),rgba(255,255,255,0.04))] p-8 transition duration-300 hover:-translate-y-1">
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <div class="text-xs uppercase tracking-[0.26em] text-white/45">90–120 Day Acceleration</div>
+              <h3 class="mt-3 text-3xl font-semibold tracking-tight">Executive Transformation</h3>
+            </div>
+            <div class="rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-xs font-semibold text-cyan-100">Highest intensity</div>
+          </div>
+          <div class="mt-8 text-4xl font-semibold tracking-tight">$12,000 – $21,000</div>
+          <p class="mt-5 max-w-xl text-base leading-7 text-white/67">A focused, high-intensity engagement designed to unlock clarity, shift perspective, and accelerate decision quality over a defined period.</p>
+          <div class="mt-8 space-y-3">
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Weekly or bi-weekly deep-dive sessions</p></div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Focused on real, current leadership challenges</p></div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Immediate application to decisions and actions</p></div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/8 bg-white/[0.03] p-4"><div class="mt-1.5 h-2.5 w-2.5 rounded-full bg-cyan-200"></div><p class="text-sm leading-6 text-white/74">Designed to create visible momentum quickly</p></div>
+          </div>
+          <a href="https://tally.so/r/6876Go" class="mt-10 inline-flex items-center gap-2 rounded-2xl bg-white text-slate-950 px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5">
+            Apply for this engagement <i data-feather="arrow-right" class="h-4 w-4"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="mx-auto max-w-7xl px-6 py-8 lg:px-8" id="founder">
+      <div class="grid items-center gap-10 lg:grid-cols-[0.92fr_1.08fr]">
+        <div class="fade-in overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] p-3 backdrop-blur-xl">
+          <div class="overflow-hidden rounded-[1.6rem] border border-white/10">
+            <img src="images/office.png" alt="Strategic advisory environment" class="h-full min-h-[420px] w-full object-cover" />
+          </div>
+        </div>
+        <div class="fade-in">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-cyan-100/90">
+            <i data-feather="star" class="h-3.5 w-3.5 fill-current"></i> Meir Amarin | Founder & CEO, AmarinGlobal
+          </div>
+          <h2 class="mt-5 text-4xl font-semibold tracking-tight sm:text-5xl">Strategic counterpart to CEOs and senior leaders</h2>
+          <div class="mt-6 text-lg leading-8 text-white/68 whitespace-pre-wrap">I didn’t build this work from theory.
+Early in my career, I worked directly with a global CEO during a period of transformation. I wasn’t the most experienced person in the room, but I challenged assumptions and asked the questions others didn’t.
+At one point, after a discussion, he told me:
+“You made me think.”
+That moment defined everything that followed.
+Over the past two decades, I’ve worked across leadership, strategy, and global business environments.
+Today, I work with a small number of senior leaders as a strategic thinking partner, helping them see more clearly and decide with confidence.</div>
+          <div class="mt-8 grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-sm leading-6 text-white/74">Proven across multinationals, scale-ups, and high-stakes transitions</div>
+            <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-sm leading-6 text-white/74">Confidential advisory. Zero politics, maximum candor</div>
+            <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-sm leading-6 text-white/74">Blends strategic precision with behavioral insight</div>
+            <div class="rounded-2xl border border-white/10 bg-white/[0.04] p-5 text-sm leading-6 text-white/74">Author of Mentoring Winners from Top Execs to Managers, used by C-suite and HR leaders worldwide</div>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-3 text-sm text-white/60">
+            <a href="https://www.linkedin.com/in/meiramarin/" target="_blank" class="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 transition hover:bg-white/[0.06]">LinkedIn</a>
+            <a href="https://x.com/meiramarin" target="_blank" class="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 transition hover:bg-white/[0.06]">X</a>
+            <a href="https://www.linkedin.com/newsletters/7142588906339762176/" target="_blank" class="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 transition hover:bg-white/[0.06]">Newsletter</a>
+            <a href="https://open.spotify.com/show/2A0DQor30Obvntiu4UgHmx" target="_blank" class="rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 transition hover:bg-white/[0.06]">Podcast</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Outcomes Section -->
+    <section class="mx-auto max-w-7xl px-6 py-24 lg:px-8">
+      <div class="fade-in overflow-hidden rounded-[2.25rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.03))] p-8 lg:p-12">
+        <div class="grid gap-10 lg:grid-cols-[0.88fr_1.12fr]">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-cyan-100/90">
+              <i data-feather="star" class="h-3.5 w-3.5 fill-current"></i> Measurable elevation
+            </div>
+            <h2 class="mt-5 text-4xl font-semibold tracking-tight">Outcomes elite leaders consistently achieve</h2>
+            <p class="mt-5 text-lg leading-8 text-white/68">When clarity replaces noise, better decisions follow, and the impact compounds quickly.</p>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div class="rounded-2xl border border-white/10 bg-[#081221]/80 p-5 text-sm leading-6 text-white/78">Decisions that hold under real pressure</div>
+            <div class="rounded-2xl border border-white/10 bg-[#081221]/80 p-5 text-sm leading-6 text-white/78">Alignment around what actually matters</div>
+            <div class="rounded-2xl border border-white/10 bg-[#081221]/80 p-5 text-sm leading-6 text-white/78">Faster, clearer execution</div>
+            <div class="rounded-2xl border border-white/10 bg-[#081221]/80 p-5 text-sm leading-6 text-white/78">Stronger leadership presence and trust</div>
+            <div class="rounded-2xl border border-white/10 bg-[#081221]/80 p-5 text-sm leading-6 text-white/78">Clearer visibility into what is really happening</div>
+            <div class="rounded-2xl border border-white/10 bg-[#081221]/80 p-5 text-sm leading-6 text-white/78">Honest perspective, free from internal bias</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Section -->
+    <section class="mx-auto max-w-7xl px-6 py-24 lg:px-8" id="book">
+      <div class="grid items-center gap-10 xl:grid-cols-[1.02fr_0.98fr]">
+        <div class="fade-in">
+          <div class="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-cyan-100/90">
+            <i data-feather="star" class="h-3.5 w-3.5 fill-current"></i> The Leadership Playbook
+          </div>
+          <h2 class="mt-5 text-4xl font-semibold tracking-tight sm:text-5xl">Mentoring Winners From Top Execs to Managers</h2>
+          <p class="mt-6 text-lg leading-8 text-white/68 whitespace-pre-wrap">This book is not theory.
+It reflects the principles and patterns I’ve seen repeatedly across leadership, mentoring, and real organizational challenges.</p>
+          <div class="mt-8 space-y-4">
+            <div class="flex items-start gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+              <i data-feather="book-open" class="mt-0.5 h-5 w-5 text-cyan-100"></i><p class="text-base leading-7 text-white/74">Proven framework drawn from real executive mentoring engagements</p>
+            </div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+              <i data-feather="book-open" class="mt-0.5 h-5 w-5 text-cyan-100"></i><p class="text-base leading-7 text-white/74">Endorsed by global leaders and used by HR teams worldwide</p>
+            </div>
+            <div class="flex items-start gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+              <i data-feather="book-open" class="mt-0.5 h-5 w-5 text-cyan-100"></i><p class="text-base leading-7 text-white/74">Connects personal leadership growth to scalable organizational impact</p>
+            </div>
+          </div>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="https://www.amazon.com/dp/B0F4MGZZ5T" class="inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5">
+              Get the Book <i data-feather="arrow-right" class="h-4 w-4"></i>
+            </a>
+            <a href="mailto:contact@amaringlobal.com" class="inline-flex items-center gap-2 rounded-2xl border border-white/12 bg-white/[0.03] px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/[0.06]">
+              Bulk / Corporate Orders <i data-feather="globe" class="h-4 w-4"></i>
+            </a>
+          </div>
+        </div>
+        <div class="fade-in grid gap-6">
+          <div class="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] p-3 backdrop-blur-xl">
+            <div class="overflow-hidden rounded-[1.6rem] border border-white/10">
+              <img src="images/bookDisplay.png" alt="Mentoring Winners book display" class="h-[320px] w-full object-cover" />
+            </div>
+          </div>
+          <div class="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+            <div class="overflow-hidden rounded-[1.6rem] border border-white/10 p-2">
+              <div class="mb-4 overflow-hidden rounded-xl">
+                <img src="images/bookQuote.jpg" alt="Book endorsement quote graphic" class="w-full object-cover" />
+              </div>
+              <div class="mb-4 overflow-hidden rounded-xl">
+                <img src="images/bookQuote1.jpg" alt="Book endorsement quote graphic" class="w-full object-cover" />
+              </div>
+              <div class="overflow-hidden rounded-xl">
+                <img src="images/bookQuote2.jpg" alt="Book endorsement quote graphic" class="w-full object-cover" />
+              </div>
+            </div>
+            <div class="rounded-[2rem] border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl">
+              <div class="text-xs uppercase tracking-[0.26em] text-white/45">Endorsements from global leaders</div>
+              <div class="mt-5 space-y-4">
+                <div class="rounded-2xl border border-white/10 bg-[#081221]/75 p-4">
+                  <p class="text-sm leading-6 text-white/78">“A powerful resource for those seeking to lead through challenging times with vision, integrity, and adaptability.”</p>
+                  <div class="mt-3 text-sm font-semibold text-white">Gen. David Petraeus</div><div class="text-xs leading-5 text-white/48">Former Commander, US Central Command</div>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-[#081221]/75 p-4">
+                  <p class="text-sm leading-6 text-white/78">“A must-read for anyone serious about developing bold, forward-thinking leaders.”</p>
+                  <div class="mt-3 text-sm font-semibold text-white">Michelle Drolet</div><div class="text-xs leading-5 text-white/48">CEO, Towerwall, Inc.</div>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-[#081221]/75 p-4">
+                  <p class="text-sm leading-6 text-white/78">“A master class in mentorship, innovation, and transformation that distills real-world experiences into practical wisdom.”</p>
+                  <div class="mt-3 text-sm font-semibold text-white">Vincent Hennequin</div><div class="text-xs leading-5 text-white/48">Associate Director, GoGlobal</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="mx-auto max-w-7xl px-6 pb-28 lg:px-8" id="contact">
+      <div class="fade-in relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[linear-gradient(135deg,rgba(255,255,255,0.08),rgba(255,255,255,0.03))] p-8 lg:p-14 mb-10">
+        <div class="absolute right-0 top-0 h-52 w-52 rounded-full bg-cyan-300/10 blur-3xl"></div>
+        <div class="relative grid items-center gap-10 lg:grid-cols-[1fr_auto]">
+          <div>
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/[0.04] px-4 py-2 text-[11px] font-medium uppercase tracking-[0.28em] text-cyan-100/90">
+              <i data-feather="star" class="h-3.5 w-3.5 fill-current"></i> Next step for serious leaders
+            </div>
+            <h2 class="mt-5 max-w-3xl text-4xl font-semibold tracking-tight sm:text-5xl">If This Resonates, You Already Know Why</h2>
+            <p class="mt-6 max-w-2xl text-lg leading-8 text-white/68 whitespace-pre-wrap">If you're carrying decisions that matter, you don’t need more input.
+You need clarity, perspective, and a space where your thinking can be challenged.
+I work with a limited number of leaders each year. Not every request is accepted.</p>
+          </div>
+          <div class="flex flex-col gap-4">
+            <a href="https://tally.so/r/6876Go" class="inline-flex items-center justify-center gap-2 rounded-2xl bg-white px-7 py-4 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5">
+              Schedule Discovery Call <i data-feather="arrow-right" class="h-4 w-4"></i>
+            </a>
+            <button onclick="window.open('mailto:contact@amaringlobal.com')" class="inline-flex items-center justify-center rounded-2xl border border-white/12 bg-white/[0.04] px-7 py-4 text-sm font-semibold text-white transition hover:bg-white/[0.07]">
+              contact@amaringlobal.com
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="fade-in overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] p-3 backdrop-blur-xl">
+        <div class="overflow-hidden rounded-[1.6rem] border border-white/10">
+          <img src="images/office1.png" alt="Strategic advisory environment" class="h-full min-h-[420px] w-full object-cover" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10">
+    <div class="mx-auto flex max-w-7xl flex-col gap-5 px-6 py-8 text-sm text-white/48 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+      <div>© <span id="year"></span> AmarinGlobal. All rights reserved.</div>
+      <div class="flex flex-wrap items-center gap-5">
+        <a href="https://www.linkedin.com/company/18078413/" class="transition hover:text-white/80">LinkedIn</a>
+        <a href="https://www.amazon.com/dp/B0F4MGZZ5T" class="transition hover:text-white/80">Book</a>
+        <button onclick="window.open('mailto:contact@amaringlobal.com')" class="transition hover:text-white/80">Email</button>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize feather icons
+    feather.replace();
+
+    // Set dynamic year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile menu toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // Fade-in scroll animations (replaces framer-motion)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(element => {
+      observer.observe(element);
+    });
+  </script>
+</body>
+</html>
