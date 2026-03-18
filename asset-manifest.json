@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AmarinGlobal/static/css/main.b9eca797.css",
+    "main.js": "/AmarinGlobal/static/js/main.2a542842.js",
+    "index.html": "/AmarinGlobal/index.html",
+    "main.b9eca797.css.map": "/AmarinGlobal/static/css/main.b9eca797.css.map",
+    "main.2a542842.js.map": "/AmarinGlobal/static/js/main.2a542842.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9eca797.css",
+    "static/js/main.2a542842.js"
+  ]
+}
