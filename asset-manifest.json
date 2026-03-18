@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AmarinGlobal/static/css/main.b9eca797.css",
-    "main.js": "/AmarinGlobal/static/js/main.31ebe29c.js",
+    "main.css": "/AmarinGlobal/static/css/main.fd4895d3.css",
+    "main.js": "/AmarinGlobal/static/js/main.6a768d2b.js",
     "index.html": "/AmarinGlobal/index.html",
-    "main.b9eca797.css.map": "/AmarinGlobal/static/css/main.b9eca797.css.map",
-    "main.31ebe29c.js.map": "/AmarinGlobal/static/js/main.31ebe29c.js.map"
+    "main.fd4895d3.css.map": "/AmarinGlobal/static/css/main.fd4895d3.css.map",
+    "main.6a768d2b.js.map": "/AmarinGlobal/static/js/main.6a768d2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9eca797.css",
-    "static/js/main.31ebe29c.js"
+    "static/css/main.fd4895d3.css",
+    "static/js/main.6a768d2b.js"
   ]
 }
