@@ -13,10 +13,10 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-const founderImage = "/images/founder.png";
-const officeImage = "/images/office.png";
-const bookDisplayImage = "/images/bookDisplay.png";
-const bookQuoteImage = "/images/bookQuote.jpg";
+const founderImage = process.env.PUBLIC_URL + "/images/founder.png";
+const officeImage = process.env.PUBLIC_URL + "/images/office.png";
+const bookDisplayImage = process.env.PUBLIC_URL + "/images/bookDisplay.png";
+const bookQuoteImage = process.env.PUBLIC_URL + "/images/bookQuote.jpg";
 
 const navItems = [
   { label: "Programs", href: "#programs" },
