@@ -13,14 +13,10 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-const founderImage =
-  "https://d24naddg1rhy2p.cloudfront.net/267354/121/0/untitled%2520design%2520%252811%2529.png";
-const officeImage =
-  "https://d24naddg1rhy2p.cloudfront.net/267354/122/0/untitled%2520design%2520%252812%2529.png";
-const bookDisplayImage =
-  "https://d24naddg1rhy2p.cloudfront.net/267354/120/0/untitled%2520design%2520%252810%2529.png";
-const bookQuoteImage =
-  "https://d24naddg1rhy2p.cloudfront.net/267354/94/0/498946011_10238380614791104_4828855238510041535_n.jpg";
+const founderImage = "/images/founder.png";
+const officeImage = "/images/office.png";
+const bookDisplayImage = "/images/bookDisplay.png";
+const bookQuoteImage = "/images/bookQuote.jpg";
 
 const navItems = [
   { label: "Programs", href: "#programs" },
